@@ -1,0 +1,57 @@
+{
+  "name": "cucumber",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^10.0.3",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/chai": "^4.2.11",
+    "@types/cucumber": "^6.0.1",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "set CI=true&&react-scripts test",
+    "test-cucumber": "./node_modules/.bin/cucumber-js -p default",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-tsflow": "^3.2.0",
+    "jsdom": "^16.2.2",
+    "ts-node": "^8.9.0"
+  }
+}

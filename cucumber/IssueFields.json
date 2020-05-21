@@ -1,0 +1,24 @@
+{
+  "fields": {
+      "project": {
+          "id": "10402"
+      },
+      "summary": "Brand new Test execution",
+      "issuetype": {
+          "id": "10007"
+      },
+      "components" : [
+          {
+          "name":"Interface"
+          },
+          {
+          "name":"Core"
+          }
+      ]
+  },
+  "xrayFields": {
+      "testPlanKey": "DEMO-15",
+      "environments": ["Chrome", "Windows"]
+  }
+}
+

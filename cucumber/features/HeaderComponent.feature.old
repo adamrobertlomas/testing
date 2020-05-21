@@ -1,0 +1,10 @@
+Feature: The Header component loads successefully?
+
+  Scenario: The Header component is used and renders the title successfully
+    Given The Header component is called
+    Then The h1 text is displayed correctly
+
+  Scenario: Sunday isn't Friday
+    Given today is Sunday
+    When I ask whether it's Friday yet
+    Then I should be told "Nope"
