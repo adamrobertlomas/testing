@@ -11,7 +11,7 @@ Feature: Adam Xray Test 1
   Scenario: Adam Xray Scenario 2
     Given today is "Sunday"
     When I ask whether it's Friday yet
-    Then I should be told "Yes"
+    Then I should be told "Nope"
 
   @TEST_XCRT-1063
   Scenario: Adam Xray Scenario 3
